@@ -5,6 +5,11 @@ import "hardhat/console.sol";
 contract Simplestorage {
     uint256 public favoriteNumber;
     string private storag;
+    struct People {
+        uint256 favoriteNumber;
+        string name;
+    }
+    People[] public people;
 
     constructor(string memory _storag) {
         console.log("Deploying a Simplestorage with storag:", _storag);
@@ -20,15 +25,8 @@ contract Simplestorage {
         uint256 testVar = 5;
     }
 
-    //functions view and pure
-    //view, no consume gas, no es una tranaccion solo reviso el estado de una vairable
-    function retrieve() public view returns (uint256) {
-        return favoriteNumber;
-    }
-
-    //pure, se utiliza para hacer dunciones que quiero utilizar que no necesita leer ningun almacenamiento por lo tanto no consume gas
-    function add() public pure returns (uint256) {
-        return (1 + 1);
+    function add(string memory _name, uint256 favoriteNumber) public {
+        people.push(People(_favoriteNumber, _name));
     }
 }
 
