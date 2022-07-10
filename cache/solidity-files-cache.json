@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\julia\\Documents\\hardgit\\contracts\\SimpleStorage.sol": {
-      "lastModificationDate": 1656632921854,
-      "contentHash": "a063853ede0e0934e26e525c933a10da",
+      "lastModificationDate": 1657427774832,
+      "contentHash": "bbb97f21ba768116ac4d405e75381277",
       "sourceName": "contracts/SimpleStorage.sol",
       "solcConfig": {
         "version": "0.8.4",
