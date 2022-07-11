@@ -1,10 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
-<<<<<<< HEAD
-require('dotenv').config();
-=======
 require("dotenv").config();
 require("@nomicfoundation/hardhat-toolbox");
->>>>>>> 1010de114457c571d02157dba62bec9a14ee952c
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -25,7 +21,6 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 //import('hardhat/config').HardhatUserConfig
 
 module.exports = {
-<<<<<<< HEAD
 solidity: '0.8.4',
 networks: {
   hardhat: {
@@ -40,17 +35,4 @@ networks: {
     accounts: [process.env.DEPLOY_ACC_RINKEBY],
    }
 },
-=======
-  solidity: "0.8.4",
-  networks: {
-    hardhat: {
-      chainId: 31337,
-      //1337,
-    },
-    rinkeby: {
-      url: `https://eth-rinkeby.alchemyapi.io/v2/${process.env.DEPLOY_KEY_RINKEBY}`,
-      accounts: [process.env.DEPLOY_ACC_RINKEBY],
-    },
-  },
->>>>>>> 1010de114457c571d02157dba62bec9a14ee952c
 };

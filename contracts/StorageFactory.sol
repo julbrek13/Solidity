@@ -1,9 +1,6 @@
-
 // SPDX-License-Identifier: MIT
- pragma solidity ^0.8.0;
-//import "hardhat/console.sol";
-
-
+pragma solidity ^0.8.0;
+import "hardhat/console.sol";
 contract SimpleStorage {
 
     uint256 favoriteNumber;
@@ -29,4 +26,10 @@ contract SimpleStorage {
         people.push(People(_favoriteNumber, _name));
         nameToFavoriteNumber[_name] = _favoriteNumber;
     }
+}
+contract StorageFactory{
+SimpleStorage public simpleStorage;
+    function createSimpleStorageContract() public{
+        simpleStorage = new SimpleStorage();
+
 }
