@@ -1,12 +1,12 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\julia\\Documents\\hardgit\\contracts\\SimpleStorage.sol": {
-      "lastModificationDate": 1656632921854,
-      "contentHash": "a063853ede0e0934e26e525c933a10da",
+    "F:\\VISUAL\\solidity\\Solidity\\contracts\\SimpleStorage.sol": {
+      "lastModificationDate": 1658711903921,
+      "contentHash": "4156dfe64748fbbbc9e03270218d4624",
       "sourceName": "contracts/SimpleStorage.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -38,12 +38,12 @@
         "Simplestorage"
       ]
     },
-    "C:\\Users\\julia\\Documents\\hardgit\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1656632363313,
+    "F:\\VISUAL\\solidity\\Solidity\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1657282787381,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.9",
         "settings": {
           "optimizer": {
             "enabled": false,
