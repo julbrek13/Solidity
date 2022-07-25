@@ -1,9 +1,15 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
+<<<<<<< HEAD
     "F:\\VISUAL\\solidity\\Solidity\\contracts\\SimpleStorage.sol": {
       "lastModificationDate": 1658711903921,
       "contentHash": "4156dfe64748fbbbc9e03270218d4624",
+=======
+    "C:\\Users\\julia\\Documents\\hardgit\\contracts\\SimpleStorage.sol": {
+      "lastModificationDate": 1657427774832,
+      "contentHash": "bbb97f21ba768116ac4d405e75381277",
+>>>>>>> f1cf5d2595c622e4c11f98f8587d147cc2008402
       "sourceName": "contracts/SimpleStorage.sol",
       "solcConfig": {
         "version": "0.8.9",

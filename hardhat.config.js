@@ -11,13 +11,13 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
     console.log(account.address);
   }
 });
+//const provider = new ethers.providers.JsonRpcProvider(url);
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
-/**
- * @type import('hardhat/config').HardhatUserConfig
- */
+//import('hardhat/config').HardhatUserConfig
+
 module.exports = {
   solidity: "0.8.9",
   networks: {
@@ -29,5 +29,13 @@ module.exports = {
       url: `https://eth-rinkeby.alchemyapi.io/v2/${process.env.DEPLOY_KEY_RINKEBY}`,
       accounts: [process.env.DEPLOY_ACC_RINKEBY],
     },
+  },
+  //mumbai: {
+  //  url: "https://rpc-mumbai.matic.today",
+  //accounts: [process.env.pk]
+  //},
+  rinkeby: {
+    url: process.env.DEPLOY_KEY_RINKEBY,
+    accounts: [process.env.DEPLOY_ACC_RINKEBY],
   },
 };
